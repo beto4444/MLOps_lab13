@@ -25,3 +25,8 @@ dependencies = [
 dev = [
     "ruff"
 ]
+
+[tool.uv.workspace]
+members = [
+    "hw",
+]
